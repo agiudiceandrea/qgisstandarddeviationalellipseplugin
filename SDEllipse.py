@@ -124,7 +124,7 @@ class SDEllipse:
         """Run method that performs all the real work"""
         # Do some initialisations
         # The progressbar
-        self.dlg.progressBar.setValue(0.0)
+        self.dlg.progressBar.setValue(0)
 
         # Prepare for sorting
         layers = QgsProject.instance().mapLayers()
